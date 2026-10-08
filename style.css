@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+    display:flex;
+     justify-content: center; /*align this in center horizontally */
+    align-items: center;/*align this in center vertically */
+    height:100vh;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container{
+    background-color: grey;
+    text-align: center;
+    padding:20px;
+    border-radius: 10px;
+    width:400px;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+}
+#get-weather-btn {
+    background-color: dodgerblue; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Removes border */
+    padding: 10px 15px; /* Adds spacing inside the button */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Shows pointer on hover */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+#city-input{
+    height:30px;
+    width:200px;
+}
+#get-weather-btn:hover {
+    background-color: deepskyblue; /* Slightly brighter blue on hover */
+}
+#error-message{
+    color:red;
+}
+.hidden{
+    display:none;
+}
